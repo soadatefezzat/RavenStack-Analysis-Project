@@ -465,4 +465,4 @@ UNION ALL SELECT 'fact_support_tickets', COUNT(*) FROM fact_support_tickets
 UNION ALL SELECT 'fact_churn_events', COUNT(*) FROM fact_churn_events
 UNION ALL SELECT 'fact_account_summary', COUNT(*) FROM fact_account_summary;
 
-PRINT '✅ الـ Star Schema اتبنى بالكامل بنجاح.';
+PRINT 'Done';
