@@ -70,7 +70,7 @@ GO
 -- Verify that the required raw tables exist before continuing
 IF OBJECT_ID('dbo.accounts','U') IS NULL
 BEGIN
-    RAISERROR('جدول accounts مش موجود. لازم تستوردي الـ CSVs الأول (شوفي التعليمات فوق).', 16, 1);
+    RAISERROR('The accounts table does not exist. Please import the CSV files first (see the instructions above).', 16, 1);
     RETURN;
 END
 GO
