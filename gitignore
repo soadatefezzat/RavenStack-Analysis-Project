@@ -1,0 +1,26 @@
+# Power BI
+*.pbix.bak
+*.pbix.lock
+~$*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Temp / cache
+*.tmp
+*.log
+~$*
+
+# Local data exports (don't commit raw CSVs if they contain the full dataset;
+# remove this line if you WANT the CSVs tracked in the repo)
+*.csv
+
+# Local secrets / connection strings
+*.env
+secrets.json
